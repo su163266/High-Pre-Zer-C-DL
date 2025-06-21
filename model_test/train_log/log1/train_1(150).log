@@ -1,0 +1,514 @@
+2025-06-02 19:21:06 - INFO - GPUs: 1, Batch size: 64, Learning rate: 0.0001
+2025-06-02 19:21:06 - INFO - Trainloader: 15000 samples, Validloader: 3000 samples
+2025-06-02 19:21:06 - INFO - Using CUDA
+2025-06-02 19:21:07 - INFO - LR step size (iterations): 705.0 ≈ every 3.0 epochs
+2025-06-02 19:21:07 - INFO - Initialized CSV for logging losses: loss_values_net_new.csv
+2025-06-02 19:21:54 - INFO - Epoch 1 [Train] - Avg Total Loss: 0.069052, Avg Rec Loss: 0.069052, LR: 4.000000e-05
+2025-06-02 19:22:00 - INFO - Epoch 1 [Valid] - Avg Total Loss: 0.026485, Avg Rec Loss: 0.026485
+2025-06-02 19:22:00 - INFO - Validation loss improved from inf to 0.026485. Saving model...
+2025-06-02 19:22:00 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 19:22:00 - INFO - Epoch 1 summary => Train Loss: 0.069052, Val Loss: 0.026485
+2025-06-02 19:22:47 - INFO - Epoch 2 [Train] - Avg Total Loss: 0.043170, Avg Rec Loss: 0.043170, LR: 7.000000e-05
+2025-06-02 19:22:53 - INFO - Epoch 2 [Valid] - Avg Total Loss: 0.018950, Avg Rec Loss: 0.018950
+2025-06-02 19:22:53 - INFO - Validation loss improved from 0.026485 to 0.018950. Saving model...
+2025-06-02 19:22:53 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 19:22:53 - INFO - Epoch 2 summary => Train Loss: 0.043170, Val Loss: 0.018950
+2025-06-02 19:23:41 - INFO - Epoch 3 [Train] - Avg Total Loss: 0.031800, Avg Rec Loss: 0.031800, LR: 1.000000e-04
+2025-06-02 19:23:47 - INFO - Epoch 3 [Valid] - Avg Total Loss: 0.039679, Avg Rec Loss: 0.039679
+2025-06-02 19:23:47 - INFO - Epoch 3 summary => Train Loss: 0.031800, Val Loss: 0.039679
+2025-06-02 19:24:35 - INFO - Epoch 4 [Train] - Avg Total Loss: 0.023333, Avg Rec Loss: 0.023333, LR: 7.000000e-05
+2025-06-02 19:24:40 - INFO - Epoch 4 [Valid] - Avg Total Loss: 0.009480, Avg Rec Loss: 0.009480
+2025-06-02 19:24:40 - INFO - Validation loss improved from 0.018950 to 0.009480. Saving model...
+2025-06-02 19:24:41 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 19:24:41 - INFO - Epoch 4 summary => Train Loss: 0.023333, Val Loss: 0.009480
+2025-06-02 19:25:28 - INFO - Epoch 5 [Train] - Avg Total Loss: 0.017308, Avg Rec Loss: 0.017308, LR: 4.000000e-05
+2025-06-02 19:25:34 - INFO - Epoch 5 [Valid] - Avg Total Loss: 0.007175, Avg Rec Loss: 0.007175
+2025-06-02 19:25:34 - INFO - Validation loss improved from 0.009480 to 0.007175. Saving model...
+2025-06-02 19:25:34 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 19:25:34 - INFO - Epoch 5 summary => Train Loss: 0.017308, Val Loss: 0.007175
+2025-06-02 19:26:20 - INFO - Epoch 6 [Train] - Avg Total Loss: 0.014601, Avg Rec Loss: 0.014601, LR: 1.000000e-05
+2025-06-02 19:26:25 - INFO - Epoch 6 [Valid] - Avg Total Loss: 0.004475, Avg Rec Loss: 0.004475
+2025-06-02 19:26:25 - INFO - Validation loss improved from 0.007175 to 0.004475. Saving model...
+2025-06-02 19:26:26 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 19:26:26 - INFO - Epoch 6 summary => Train Loss: 0.014601, Val Loss: 0.004475
+2025-06-02 19:27:12 - INFO - Epoch 7 [Train] - Avg Total Loss: 0.013469, Avg Rec Loss: 0.013469, LR: 2.500000e-05
+2025-06-02 19:27:17 - INFO - Epoch 7 [Valid] - Avg Total Loss: 0.004325, Avg Rec Loss: 0.004325
+2025-06-02 19:27:17 - INFO - Validation loss improved from 0.004475 to 0.004325. Saving model...
+2025-06-02 19:27:18 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 19:27:18 - INFO - Epoch 7 summary => Train Loss: 0.013469, Val Loss: 0.004325
+2025-06-02 19:28:04 - INFO - Epoch 8 [Train] - Avg Total Loss: 0.013490, Avg Rec Loss: 0.013490, LR: 4.000000e-05
+2025-06-02 19:28:09 - INFO - Epoch 8 [Valid] - Avg Total Loss: 0.005032, Avg Rec Loss: 0.005032
+2025-06-02 19:28:09 - INFO - Epoch 8 summary => Train Loss: 0.013490, Val Loss: 0.005032
+2025-06-02 19:28:55 - INFO - Epoch 9 [Train] - Avg Total Loss: 0.014007, Avg Rec Loss: 0.014007, LR: 5.500000e-05
+2025-06-02 19:29:00 - INFO - Epoch 9 [Valid] - Avg Total Loss: 0.008946, Avg Rec Loss: 0.008946
+2025-06-02 19:29:00 - INFO - Epoch 9 summary => Train Loss: 0.014007, Val Loss: 0.008946
+2025-06-02 19:29:46 - INFO - Epoch 10 [Train] - Avg Total Loss: 0.012895, Avg Rec Loss: 0.012895, LR: 4.000000e-05
+2025-06-02 19:29:51 - INFO - Epoch 10 [Valid] - Avg Total Loss: 0.005365, Avg Rec Loss: 0.005365
+2025-06-02 19:29:51 - INFO - Epoch 10 summary => Train Loss: 0.012895, Val Loss: 0.005365
+2025-06-02 19:30:37 - INFO - Epoch 11 [Train] - Avg Total Loss: 0.011419, Avg Rec Loss: 0.011419, LR: 2.500000e-05
+2025-06-02 19:30:42 - INFO - Epoch 11 [Valid] - Avg Total Loss: 0.003687, Avg Rec Loss: 0.003687
+2025-06-02 19:30:42 - INFO - Validation loss improved from 0.004325 to 0.003687. Saving model...
+2025-06-02 19:30:42 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 19:30:42 - INFO - Epoch 11 summary => Train Loss: 0.011419, Val Loss: 0.003687
+2025-06-02 19:31:29 - INFO - Epoch 12 [Train] - Avg Total Loss: 0.010125, Avg Rec Loss: 0.010125, LR: 1.000000e-05
+2025-06-02 19:31:35 - INFO - Epoch 12 [Valid] - Avg Total Loss: 0.003550, Avg Rec Loss: 0.003550
+2025-06-02 19:31:35 - INFO - Validation loss improved from 0.003687 to 0.003550. Saving model...
+2025-06-02 19:31:35 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 19:31:35 - INFO - Epoch 12 summary => Train Loss: 0.010125, Val Loss: 0.003550
+2025-06-02 19:32:21 - INFO - Epoch 13 [Train] - Avg Total Loss: 0.009740, Avg Rec Loss: 0.009740, LR: 1.750000e-05
+2025-06-02 19:32:27 - INFO - Epoch 13 [Valid] - Avg Total Loss: 0.003195, Avg Rec Loss: 0.003195
+2025-06-02 19:32:27 - INFO - Validation loss improved from 0.003550 to 0.003195. Saving model...
+2025-06-02 19:32:27 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 19:32:27 - INFO - Epoch 13 summary => Train Loss: 0.009740, Val Loss: 0.003195
+2025-06-02 19:33:14 - INFO - Epoch 14 [Train] - Avg Total Loss: 0.009731, Avg Rec Loss: 0.009731, LR: 2.500000e-05
+2025-06-02 19:33:19 - INFO - Epoch 14 [Valid] - Avg Total Loss: 0.005775, Avg Rec Loss: 0.005775
+2025-06-02 19:33:19 - INFO - Epoch 14 summary => Train Loss: 0.009731, Val Loss: 0.005775
+2025-06-02 19:34:05 - INFO - Epoch 15 [Train] - Avg Total Loss: 0.010144, Avg Rec Loss: 0.010144, LR: 3.250000e-05
+2025-06-02 19:34:11 - INFO - Epoch 15 [Valid] - Avg Total Loss: 0.003814, Avg Rec Loss: 0.003814
+2025-06-02 19:34:11 - INFO - Epoch 15 summary => Train Loss: 0.010144, Val Loss: 0.003814
+2025-06-02 19:34:57 - INFO - Epoch 16 [Train] - Avg Total Loss: 0.009856, Avg Rec Loss: 0.009856, LR: 2.500000e-05
+2025-06-02 19:35:02 - INFO - Epoch 16 [Valid] - Avg Total Loss: 0.003458, Avg Rec Loss: 0.003458
+2025-06-02 19:35:02 - INFO - Epoch 16 summary => Train Loss: 0.009856, Val Loss: 0.003458
+2025-06-02 19:35:48 - INFO - Epoch 17 [Train] - Avg Total Loss: 0.009183, Avg Rec Loss: 0.009183, LR: 1.750000e-05
+2025-06-02 19:35:54 - INFO - Epoch 17 [Valid] - Avg Total Loss: 0.004548, Avg Rec Loss: 0.004548
+2025-06-02 19:35:54 - INFO - Epoch 17 summary => Train Loss: 0.009183, Val Loss: 0.004548
+2025-06-02 19:36:40 - INFO - Epoch 18 [Train] - Avg Total Loss: 0.008617, Avg Rec Loss: 0.008617, LR: 1.000000e-05
+2025-06-02 19:36:45 - INFO - Epoch 18 [Valid] - Avg Total Loss: 0.002888, Avg Rec Loss: 0.002888
+2025-06-02 19:36:45 - INFO - Validation loss improved from 0.003195 to 0.002888. Saving model...
+2025-06-02 19:36:45 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 19:36:45 - INFO - Epoch 18 summary => Train Loss: 0.008617, Val Loss: 0.002888
+2025-06-02 19:37:31 - INFO - Epoch 19 [Train] - Avg Total Loss: 0.008375, Avg Rec Loss: 0.008375, LR: 1.375000e-05
+2025-06-02 19:37:36 - INFO - Epoch 19 [Valid] - Avg Total Loss: 0.003778, Avg Rec Loss: 0.003778
+2025-06-02 19:37:36 - INFO - Epoch 19 summary => Train Loss: 0.008375, Val Loss: 0.003778
+2025-06-02 19:38:23 - INFO - Epoch 20 [Train] - Avg Total Loss: 0.008439, Avg Rec Loss: 0.008439, LR: 1.750000e-05
+2025-06-02 19:38:28 - INFO - Epoch 20 [Valid] - Avg Total Loss: 0.003022, Avg Rec Loss: 0.003022
+2025-06-02 19:38:28 - INFO - Epoch 20 summary => Train Loss: 0.008439, Val Loss: 0.003022
+2025-06-02 19:39:14 - INFO - Epoch 21 [Train] - Avg Total Loss: 0.008580, Avg Rec Loss: 0.008580, LR: 2.125000e-05
+2025-06-02 19:39:19 - INFO - Epoch 21 [Valid] - Avg Total Loss: 0.003526, Avg Rec Loss: 0.003526
+2025-06-02 19:39:19 - INFO - Epoch 21 summary => Train Loss: 0.008580, Val Loss: 0.003526
+2025-06-02 19:40:05 - INFO - Epoch 22 [Train] - Avg Total Loss: 0.008517, Avg Rec Loss: 0.008517, LR: 1.750000e-05
+2025-06-02 19:40:10 - INFO - Epoch 22 [Valid] - Avg Total Loss: 0.002707, Avg Rec Loss: 0.002707
+2025-06-02 19:40:10 - INFO - Validation loss improved from 0.002888 to 0.002707. Saving model...
+2025-06-02 19:40:10 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 19:40:10 - INFO - Epoch 22 summary => Train Loss: 0.008517, Val Loss: 0.002707
+2025-06-02 19:40:56 - INFO - Epoch 23 [Train] - Avg Total Loss: 0.008050, Avg Rec Loss: 0.008050, LR: 1.375000e-05
+2025-06-02 19:41:01 - INFO - Epoch 23 [Valid] - Avg Total Loss: 0.002722, Avg Rec Loss: 0.002722
+2025-06-02 19:41:01 - INFO - Epoch 23 summary => Train Loss: 0.008050, Val Loss: 0.002722
+2025-06-02 19:41:47 - INFO - Epoch 24 [Train] - Avg Total Loss: 0.007947, Avg Rec Loss: 0.007947, LR: 1.000000e-05
+2025-06-02 19:41:52 - INFO - Epoch 24 [Valid] - Avg Total Loss: 0.002565, Avg Rec Loss: 0.002565
+2025-06-02 19:41:52 - INFO - Validation loss improved from 0.002707 to 0.002565. Saving model...
+2025-06-02 19:41:53 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 19:41:53 - INFO - Epoch 24 summary => Train Loss: 0.007947, Val Loss: 0.002565
+2025-06-02 19:42:39 - INFO - Epoch 25 [Train] - Avg Total Loss: 0.007764, Avg Rec Loss: 0.007764, LR: 1.187500e-05
+2025-06-02 19:42:44 - INFO - Epoch 25 [Valid] - Avg Total Loss: 0.002371, Avg Rec Loss: 0.002371
+2025-06-02 19:42:44 - INFO - Validation loss improved from 0.002565 to 0.002371. Saving model...
+2025-06-02 19:42:44 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 19:42:44 - INFO - Epoch 25 summary => Train Loss: 0.007764, Val Loss: 0.002371
+2025-06-02 19:43:30 - INFO - Epoch 26 [Train] - Avg Total Loss: 0.007674, Avg Rec Loss: 0.007674, LR: 1.375000e-05
+2025-06-02 19:43:35 - INFO - Epoch 26 [Valid] - Avg Total Loss: 0.002543, Avg Rec Loss: 0.002543
+2025-06-02 19:43:35 - INFO - Epoch 26 summary => Train Loss: 0.007674, Val Loss: 0.002543
+2025-06-02 19:44:21 - INFO - Epoch 27 [Train] - Avg Total Loss: 0.007923, Avg Rec Loss: 0.007923, LR: 1.562500e-05
+2025-06-02 19:44:26 - INFO - Epoch 27 [Valid] - Avg Total Loss: 0.003306, Avg Rec Loss: 0.003306
+2025-06-02 19:44:26 - INFO - Epoch 27 summary => Train Loss: 0.007923, Val Loss: 0.003306
+2025-06-02 19:45:12 - INFO - Epoch 28 [Train] - Avg Total Loss: 0.007835, Avg Rec Loss: 0.007835, LR: 1.375000e-05
+2025-06-02 19:45:18 - INFO - Epoch 28 [Valid] - Avg Total Loss: 0.002221, Avg Rec Loss: 0.002221
+2025-06-02 19:45:18 - INFO - Validation loss improved from 0.002371 to 0.002221. Saving model...
+2025-06-02 19:45:18 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 19:45:18 - INFO - Epoch 28 summary => Train Loss: 0.007835, Val Loss: 0.002221
+2025-06-02 19:46:04 - INFO - Epoch 29 [Train] - Avg Total Loss: 0.007661, Avg Rec Loss: 0.007661, LR: 1.187500e-05
+2025-06-02 19:46:09 - INFO - Epoch 29 [Valid] - Avg Total Loss: 0.002427, Avg Rec Loss: 0.002427
+2025-06-02 19:46:09 - INFO - Epoch 29 summary => Train Loss: 0.007661, Val Loss: 0.002427
+2025-06-02 19:46:55 - INFO - Epoch 30 [Train] - Avg Total Loss: 0.007464, Avg Rec Loss: 0.007464, LR: 1.000000e-05
+2025-06-02 19:47:00 - INFO - Epoch 30 [Valid] - Avg Total Loss: 0.002472, Avg Rec Loss: 0.002472
+2025-06-02 19:47:00 - INFO - Epoch 30 summary => Train Loss: 0.007464, Val Loss: 0.002472
+2025-06-02 19:47:46 - INFO - Epoch 31 [Train] - Avg Total Loss: 0.007406, Avg Rec Loss: 0.007406, LR: 1.093750e-05
+2025-06-02 19:47:51 - INFO - Epoch 31 [Valid] - Avg Total Loss: 0.002299, Avg Rec Loss: 0.002299
+2025-06-02 19:47:51 - INFO - Epoch 31 summary => Train Loss: 0.007406, Val Loss: 0.002299
+2025-06-02 19:48:37 - INFO - Epoch 32 [Train] - Avg Total Loss: 0.007372, Avg Rec Loss: 0.007372, LR: 1.187500e-05
+2025-06-02 19:48:43 - INFO - Epoch 32 [Valid] - Avg Total Loss: 0.002922, Avg Rec Loss: 0.002922
+2025-06-02 19:48:43 - INFO - Epoch 32 summary => Train Loss: 0.007372, Val Loss: 0.002922
+2025-06-02 19:49:29 - INFO - Epoch 33 [Train] - Avg Total Loss: 0.007470, Avg Rec Loss: 0.007470, LR: 1.281250e-05
+2025-06-02 19:49:34 - INFO - Epoch 33 [Valid] - Avg Total Loss: 0.002332, Avg Rec Loss: 0.002332
+2025-06-02 19:49:34 - INFO - Epoch 33 summary => Train Loss: 0.007470, Val Loss: 0.002332
+2025-06-02 19:50:20 - INFO - Epoch 34 [Train] - Avg Total Loss: 0.007487, Avg Rec Loss: 0.007487, LR: 1.187500e-05
+2025-06-02 19:50:25 - INFO - Epoch 34 [Valid] - Avg Total Loss: 0.002187, Avg Rec Loss: 0.002187
+2025-06-02 19:50:25 - INFO - Validation loss improved from 0.002221 to 0.002187. Saving model...
+2025-06-02 19:50:25 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 19:50:25 - INFO - Epoch 34 summary => Train Loss: 0.007487, Val Loss: 0.002187
+2025-06-02 19:51:11 - INFO - Epoch 35 [Train] - Avg Total Loss: 0.007252, Avg Rec Loss: 0.007252, LR: 1.093750e-05
+2025-06-02 19:51:16 - INFO - Epoch 35 [Valid] - Avg Total Loss: 0.002171, Avg Rec Loss: 0.002171
+2025-06-02 19:51:16 - INFO - Validation loss improved from 0.002187 to 0.002171. Saving model...
+2025-06-02 19:51:17 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 19:51:17 - INFO - Epoch 35 summary => Train Loss: 0.007252, Val Loss: 0.002171
+2025-06-02 19:52:03 - INFO - Epoch 36 [Train] - Avg Total Loss: 0.007245, Avg Rec Loss: 0.007245, LR: 1.000000e-05
+2025-06-02 19:52:08 - INFO - Epoch 36 [Valid] - Avg Total Loss: 0.003656, Avg Rec Loss: 0.003656
+2025-06-02 19:52:08 - INFO - Epoch 36 summary => Train Loss: 0.007245, Val Loss: 0.003656
+2025-06-02 19:52:54 - INFO - Epoch 37 [Train] - Avg Total Loss: 0.007149, Avg Rec Loss: 0.007149, LR: 1.046875e-05
+2025-06-02 19:52:59 - INFO - Epoch 37 [Valid] - Avg Total Loss: 0.002105, Avg Rec Loss: 0.002105
+2025-06-02 19:52:59 - INFO - Validation loss improved from 0.002171 to 0.002105. Saving model...
+2025-06-02 19:52:59 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 19:52:59 - INFO - Epoch 37 summary => Train Loss: 0.007149, Val Loss: 0.002105
+2025-06-02 19:53:45 - INFO - Epoch 38 [Train] - Avg Total Loss: 0.007205, Avg Rec Loss: 0.007205, LR: 1.093750e-05
+2025-06-02 19:53:51 - INFO - Epoch 38 [Valid] - Avg Total Loss: 0.002175, Avg Rec Loss: 0.002175
+2025-06-02 19:53:51 - INFO - Epoch 38 summary => Train Loss: 0.007205, Val Loss: 0.002175
+2025-06-02 19:54:37 - INFO - Epoch 39 [Train] - Avg Total Loss: 0.007176, Avg Rec Loss: 0.007176, LR: 1.140625e-05
+2025-06-02 19:54:42 - INFO - Epoch 39 [Valid] - Avg Total Loss: 0.002765, Avg Rec Loss: 0.002765
+2025-06-02 19:54:42 - INFO - Epoch 39 summary => Train Loss: 0.007176, Val Loss: 0.002765
+2025-06-02 19:55:28 - INFO - Epoch 40 [Train] - Avg Total Loss: 0.007141, Avg Rec Loss: 0.007141, LR: 1.093750e-05
+2025-06-02 19:55:33 - INFO - Epoch 40 [Valid] - Avg Total Loss: 0.004661, Avg Rec Loss: 0.004661
+2025-06-02 19:55:33 - INFO - Epoch 40 summary => Train Loss: 0.007141, Val Loss: 0.004661
+2025-06-02 19:56:19 - INFO - Epoch 41 [Train] - Avg Total Loss: 0.007099, Avg Rec Loss: 0.007099, LR: 1.046875e-05
+2025-06-02 19:56:24 - INFO - Epoch 41 [Valid] - Avg Total Loss: 0.002280, Avg Rec Loss: 0.002280
+2025-06-02 19:56:24 - INFO - Epoch 41 summary => Train Loss: 0.007099, Val Loss: 0.002280
+2025-06-02 19:57:10 - INFO - Epoch 42 [Train] - Avg Total Loss: 0.007017, Avg Rec Loss: 0.007017, LR: 1.000000e-05
+2025-06-02 19:57:16 - INFO - Epoch 42 [Valid] - Avg Total Loss: 0.002179, Avg Rec Loss: 0.002179
+2025-06-02 19:57:16 - INFO - Epoch 42 summary => Train Loss: 0.007017, Val Loss: 0.002179
+2025-06-02 19:58:02 - INFO - Epoch 43 [Train] - Avg Total Loss: 0.006911, Avg Rec Loss: 0.006911, LR: 1.023438e-05
+2025-06-02 19:58:07 - INFO - Epoch 43 [Valid] - Avg Total Loss: 0.002410, Avg Rec Loss: 0.002410
+2025-06-02 19:58:07 - INFO - Epoch 43 summary => Train Loss: 0.006911, Val Loss: 0.002410
+2025-06-02 19:58:53 - INFO - Epoch 44 [Train] - Avg Total Loss: 0.006911, Avg Rec Loss: 0.006911, LR: 1.046875e-05
+2025-06-02 19:58:58 - INFO - Epoch 44 [Valid] - Avg Total Loss: 0.002018, Avg Rec Loss: 0.002018
+2025-06-02 19:58:58 - INFO - Validation loss improved from 0.002105 to 0.002018. Saving model...
+2025-06-02 19:58:58 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 19:58:58 - INFO - Epoch 44 summary => Train Loss: 0.006911, Val Loss: 0.002018
+2025-06-02 19:59:44 - INFO - Epoch 45 [Train] - Avg Total Loss: 0.007008, Avg Rec Loss: 0.007008, LR: 1.070313e-05
+2025-06-02 19:59:49 - INFO - Epoch 45 [Valid] - Avg Total Loss: 0.002052, Avg Rec Loss: 0.002052
+2025-06-02 19:59:49 - INFO - Epoch 45 summary => Train Loss: 0.007008, Val Loss: 0.002052
+2025-06-02 20:00:36 - INFO - Epoch 46 [Train] - Avg Total Loss: 0.006932, Avg Rec Loss: 0.006932, LR: 1.046875e-05
+2025-06-02 20:00:41 - INFO - Epoch 46 [Valid] - Avg Total Loss: 0.001959, Avg Rec Loss: 0.001959
+2025-06-02 20:00:41 - INFO - Validation loss improved from 0.002018 to 0.001959. Saving model...
+2025-06-02 20:00:41 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 20:00:41 - INFO - Epoch 46 summary => Train Loss: 0.006932, Val Loss: 0.001959
+2025-06-02 20:01:27 - INFO - Epoch 47 [Train] - Avg Total Loss: 0.006969, Avg Rec Loss: 0.006969, LR: 1.023438e-05
+2025-06-02 20:01:32 - INFO - Epoch 47 [Valid] - Avg Total Loss: 0.002181, Avg Rec Loss: 0.002181
+2025-06-02 20:01:32 - INFO - Epoch 47 summary => Train Loss: 0.006969, Val Loss: 0.002181
+2025-06-02 20:02:18 - INFO - Epoch 48 [Train] - Avg Total Loss: 0.006906, Avg Rec Loss: 0.006906, LR: 1.000000e-05
+2025-06-02 20:02:23 - INFO - Epoch 48 [Valid] - Avg Total Loss: 0.002110, Avg Rec Loss: 0.002110
+2025-06-02 20:02:23 - INFO - Epoch 48 summary => Train Loss: 0.006906, Val Loss: 0.002110
+2025-06-02 20:03:10 - INFO - Epoch 49 [Train] - Avg Total Loss: 0.006973, Avg Rec Loss: 0.006973, LR: 1.011719e-05
+2025-06-02 20:03:15 - INFO - Epoch 49 [Valid] - Avg Total Loss: 0.002220, Avg Rec Loss: 0.002220
+2025-06-02 20:03:15 - INFO - Epoch 49 summary => Train Loss: 0.006973, Val Loss: 0.002220
+2025-06-02 20:04:01 - INFO - Epoch 50 [Train] - Avg Total Loss: 0.006812, Avg Rec Loss: 0.006812, LR: 1.023438e-05
+2025-06-02 20:04:06 - INFO - Epoch 50 [Valid] - Avg Total Loss: 0.002140, Avg Rec Loss: 0.002140
+2025-06-02 20:04:06 - INFO - Epoch 50 summary => Train Loss: 0.006812, Val Loss: 0.002140
+2025-06-02 20:04:52 - INFO - Epoch 51 [Train] - Avg Total Loss: 0.006784, Avg Rec Loss: 0.006784, LR: 1.035156e-05
+2025-06-02 20:04:57 - INFO - Epoch 51 [Valid] - Avg Total Loss: 0.002354, Avg Rec Loss: 0.002354
+2025-06-02 20:04:57 - INFO - Epoch 51 summary => Train Loss: 0.006784, Val Loss: 0.002354
+2025-06-02 20:05:43 - INFO - Epoch 52 [Train] - Avg Total Loss: 0.006875, Avg Rec Loss: 0.006875, LR: 1.023438e-05
+2025-06-02 20:05:49 - INFO - Epoch 52 [Valid] - Avg Total Loss: 0.003211, Avg Rec Loss: 0.003211
+2025-06-02 20:05:49 - INFO - Epoch 52 summary => Train Loss: 0.006875, Val Loss: 0.003211
+2025-06-02 20:06:35 - INFO - Epoch 53 [Train] - Avg Total Loss: 0.006799, Avg Rec Loss: 0.006799, LR: 1.011719e-05
+2025-06-02 20:06:40 - INFO - Epoch 53 [Valid] - Avg Total Loss: 0.001982, Avg Rec Loss: 0.001982
+2025-06-02 20:06:40 - INFO - Epoch 53 summary => Train Loss: 0.006799, Val Loss: 0.001982
+2025-06-02 20:07:26 - INFO - Epoch 54 [Train] - Avg Total Loss: 0.006844, Avg Rec Loss: 0.006844, LR: 1.000000e-05
+2025-06-02 20:07:31 - INFO - Epoch 54 [Valid] - Avg Total Loss: 0.001974, Avg Rec Loss: 0.001974
+2025-06-02 20:07:31 - INFO - Epoch 54 summary => Train Loss: 0.006844, Val Loss: 0.001974
+2025-06-02 20:08:17 - INFO - Epoch 55 [Train] - Avg Total Loss: 0.006765, Avg Rec Loss: 0.006765, LR: 1.005859e-05
+2025-06-02 20:08:22 - INFO - Epoch 55 [Valid] - Avg Total Loss: 0.001873, Avg Rec Loss: 0.001873
+2025-06-02 20:08:22 - INFO - Validation loss improved from 0.001959 to 0.001873. Saving model...
+2025-06-02 20:08:22 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 20:08:22 - INFO - Epoch 55 summary => Train Loss: 0.006765, Val Loss: 0.001873
+2025-06-02 20:09:08 - INFO - Epoch 56 [Train] - Avg Total Loss: 0.006789, Avg Rec Loss: 0.006789, LR: 1.011719e-05
+2025-06-02 20:09:14 - INFO - Epoch 56 [Valid] - Avg Total Loss: 0.002633, Avg Rec Loss: 0.002633
+2025-06-02 20:09:14 - INFO - Epoch 56 summary => Train Loss: 0.006789, Val Loss: 0.002633
+2025-06-02 20:09:59 - INFO - Epoch 57 [Train] - Avg Total Loss: 0.006822, Avg Rec Loss: 0.006822, LR: 1.017578e-05
+2025-06-02 20:10:05 - INFO - Epoch 57 [Valid] - Avg Total Loss: 0.001890, Avg Rec Loss: 0.001890
+2025-06-02 20:10:05 - INFO - Epoch 57 summary => Train Loss: 0.006822, Val Loss: 0.001890
+2025-06-02 20:10:51 - INFO - Epoch 58 [Train] - Avg Total Loss: 0.006854, Avg Rec Loss: 0.006854, LR: 1.011719e-05
+2025-06-02 20:10:56 - INFO - Epoch 58 [Valid] - Avg Total Loss: 0.002010, Avg Rec Loss: 0.002010
+2025-06-02 20:10:56 - INFO - Epoch 58 summary => Train Loss: 0.006854, Val Loss: 0.002010
+2025-06-02 20:11:42 - INFO - Epoch 59 [Train] - Avg Total Loss: 0.006680, Avg Rec Loss: 0.006680, LR: 1.005859e-05
+2025-06-02 20:11:47 - INFO - Epoch 59 [Valid] - Avg Total Loss: 0.002030, Avg Rec Loss: 0.002030
+2025-06-02 20:11:47 - INFO - Epoch 59 summary => Train Loss: 0.006680, Val Loss: 0.002030
+2025-06-02 20:12:33 - INFO - Epoch 60 [Train] - Avg Total Loss: 0.006765, Avg Rec Loss: 0.006765, LR: 1.000000e-05
+2025-06-02 20:12:38 - INFO - Epoch 60 [Valid] - Avg Total Loss: 0.002850, Avg Rec Loss: 0.002850
+2025-06-02 20:12:38 - INFO - Epoch 60 summary => Train Loss: 0.006765, Val Loss: 0.002850
+2025-06-02 20:13:24 - INFO - Epoch 61 [Train] - Avg Total Loss: 0.006787, Avg Rec Loss: 0.006787, LR: 1.002930e-05
+2025-06-02 20:13:29 - INFO - Epoch 61 [Valid] - Avg Total Loss: 0.001912, Avg Rec Loss: 0.001912
+2025-06-02 20:13:29 - INFO - Epoch 61 summary => Train Loss: 0.006787, Val Loss: 0.001912
+2025-06-02 20:14:15 - INFO - Epoch 62 [Train] - Avg Total Loss: 0.006804, Avg Rec Loss: 0.006804, LR: 1.005859e-05
+2025-06-02 20:14:20 - INFO - Epoch 62 [Valid] - Avg Total Loss: 0.001974, Avg Rec Loss: 0.001974
+2025-06-02 20:14:20 - INFO - Epoch 62 summary => Train Loss: 0.006804, Val Loss: 0.001974
+2025-06-02 20:15:06 - INFO - Epoch 63 [Train] - Avg Total Loss: 0.006752, Avg Rec Loss: 0.006752, LR: 1.008789e-05
+2025-06-02 20:15:12 - INFO - Epoch 63 [Valid] - Avg Total Loss: 0.001864, Avg Rec Loss: 0.001864
+2025-06-02 20:15:12 - INFO - Validation loss improved from 0.001873 to 0.001864. Saving model...
+2025-06-02 20:15:12 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 20:15:12 - INFO - Epoch 63 summary => Train Loss: 0.006752, Val Loss: 0.001864
+2025-06-02 20:15:58 - INFO - Epoch 64 [Train] - Avg Total Loss: 0.006772, Avg Rec Loss: 0.006772, LR: 1.005859e-05
+2025-06-02 20:16:03 - INFO - Epoch 64 [Valid] - Avg Total Loss: 0.002306, Avg Rec Loss: 0.002306
+2025-06-02 20:16:03 - INFO - Epoch 64 summary => Train Loss: 0.006772, Val Loss: 0.002306
+2025-06-02 20:16:49 - INFO - Epoch 65 [Train] - Avg Total Loss: 0.006712, Avg Rec Loss: 0.006712, LR: 1.002930e-05
+2025-06-02 20:16:54 - INFO - Epoch 65 [Valid] - Avg Total Loss: 0.002150, Avg Rec Loss: 0.002150
+2025-06-02 20:16:54 - INFO - Epoch 65 summary => Train Loss: 0.006712, Val Loss: 0.002150
+2025-06-02 20:17:40 - INFO - Epoch 66 [Train] - Avg Total Loss: 0.006795, Avg Rec Loss: 0.006795, LR: 1.000000e-05
+2025-06-02 20:17:45 - INFO - Epoch 66 [Valid] - Avg Total Loss: 0.002140, Avg Rec Loss: 0.002140
+2025-06-02 20:17:45 - INFO - Epoch 66 summary => Train Loss: 0.006795, Val Loss: 0.002140
+2025-06-02 20:18:32 - INFO - Epoch 67 [Train] - Avg Total Loss: 0.006743, Avg Rec Loss: 0.006743, LR: 1.001465e-05
+2025-06-02 20:18:37 - INFO - Epoch 67 [Valid] - Avg Total Loss: 0.002522, Avg Rec Loss: 0.002522
+2025-06-02 20:18:37 - INFO - Epoch 67 summary => Train Loss: 0.006743, Val Loss: 0.002522
+2025-06-02 20:19:23 - INFO - Epoch 68 [Train] - Avg Total Loss: 0.006673, Avg Rec Loss: 0.006673, LR: 1.002930e-05
+2025-06-02 20:19:28 - INFO - Epoch 68 [Valid] - Avg Total Loss: 0.002024, Avg Rec Loss: 0.002024
+2025-06-02 20:19:28 - INFO - Epoch 68 summary => Train Loss: 0.006673, Val Loss: 0.002024
+2025-06-02 20:20:14 - INFO - Epoch 69 [Train] - Avg Total Loss: 0.006721, Avg Rec Loss: 0.006721, LR: 1.004395e-05
+2025-06-02 20:20:19 - INFO - Epoch 69 [Valid] - Avg Total Loss: 0.002268, Avg Rec Loss: 0.002268
+2025-06-02 20:20:19 - INFO - Epoch 69 summary => Train Loss: 0.006721, Val Loss: 0.002268
+2025-06-02 20:21:05 - INFO - Epoch 70 [Train] - Avg Total Loss: 0.006634, Avg Rec Loss: 0.006634, LR: 1.002930e-05
+2025-06-02 20:21:10 - INFO - Epoch 70 [Valid] - Avg Total Loss: 0.001931, Avg Rec Loss: 0.001931
+2025-06-02 20:21:10 - INFO - Epoch 70 summary => Train Loss: 0.006634, Val Loss: 0.001931
+2025-06-02 20:21:56 - INFO - Epoch 71 [Train] - Avg Total Loss: 0.006590, Avg Rec Loss: 0.006590, LR: 1.001465e-05
+2025-06-02 20:22:01 - INFO - Epoch 71 [Valid] - Avg Total Loss: 0.001761, Avg Rec Loss: 0.001761
+2025-06-02 20:22:01 - INFO - Validation loss improved from 0.001864 to 0.001761. Saving model...
+2025-06-02 20:22:01 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 20:22:01 - INFO - Epoch 71 summary => Train Loss: 0.006590, Val Loss: 0.001761
+2025-06-02 20:22:47 - INFO - Epoch 72 [Train] - Avg Total Loss: 0.006620, Avg Rec Loss: 0.006620, LR: 1.000000e-05
+2025-06-02 20:22:53 - INFO - Epoch 72 [Valid] - Avg Total Loss: 0.001877, Avg Rec Loss: 0.001877
+2025-06-02 20:22:53 - INFO - Epoch 72 summary => Train Loss: 0.006620, Val Loss: 0.001877
+2025-06-02 20:23:39 - INFO - Epoch 73 [Train] - Avg Total Loss: 0.006651, Avg Rec Loss: 0.006651, LR: 1.000732e-05
+2025-06-02 20:23:44 - INFO - Epoch 73 [Valid] - Avg Total Loss: 0.002019, Avg Rec Loss: 0.002019
+2025-06-02 20:23:44 - INFO - Epoch 73 summary => Train Loss: 0.006651, Val Loss: 0.002019
+2025-06-02 20:24:30 - INFO - Epoch 74 [Train] - Avg Total Loss: 0.006622, Avg Rec Loss: 0.006622, LR: 1.001465e-05
+2025-06-02 20:24:35 - INFO - Epoch 74 [Valid] - Avg Total Loss: 0.001974, Avg Rec Loss: 0.001974
+2025-06-02 20:24:35 - INFO - Epoch 74 summary => Train Loss: 0.006622, Val Loss: 0.001974
+2025-06-02 20:25:21 - INFO - Epoch 75 [Train] - Avg Total Loss: 0.006616, Avg Rec Loss: 0.006616, LR: 1.002197e-05
+2025-06-02 20:25:26 - INFO - Epoch 75 [Valid] - Avg Total Loss: 0.002122, Avg Rec Loss: 0.002122
+2025-06-02 20:25:26 - INFO - Epoch 75 summary => Train Loss: 0.006616, Val Loss: 0.002122
+2025-06-02 20:26:13 - INFO - Epoch 76 [Train] - Avg Total Loss: 0.006611, Avg Rec Loss: 0.006611, LR: 1.001465e-05
+2025-06-02 20:26:18 - INFO - Epoch 76 [Valid] - Avg Total Loss: 0.002160, Avg Rec Loss: 0.002160
+2025-06-02 20:26:18 - INFO - Epoch 76 summary => Train Loss: 0.006611, Val Loss: 0.002160
+2025-06-02 20:27:04 - INFO - Epoch 77 [Train] - Avg Total Loss: 0.006567, Avg Rec Loss: 0.006567, LR: 1.000732e-05
+2025-06-02 20:27:09 - INFO - Epoch 77 [Valid] - Avg Total Loss: 0.001954, Avg Rec Loss: 0.001954
+2025-06-02 20:27:09 - INFO - Epoch 77 summary => Train Loss: 0.006567, Val Loss: 0.001954
+2025-06-02 20:27:55 - INFO - Epoch 78 [Train] - Avg Total Loss: 0.006538, Avg Rec Loss: 0.006538, LR: 1.000000e-05
+2025-06-02 20:28:00 - INFO - Epoch 78 [Valid] - Avg Total Loss: 0.001890, Avg Rec Loss: 0.001890
+2025-06-02 20:28:00 - INFO - Epoch 78 summary => Train Loss: 0.006538, Val Loss: 0.001890
+2025-06-02 20:28:46 - INFO - Epoch 79 [Train] - Avg Total Loss: 0.006591, Avg Rec Loss: 0.006591, LR: 1.000366e-05
+2025-06-02 20:28:51 - INFO - Epoch 79 [Valid] - Avg Total Loss: 0.002803, Avg Rec Loss: 0.002803
+2025-06-02 20:28:51 - INFO - Epoch 79 summary => Train Loss: 0.006591, Val Loss: 0.002803
+2025-06-02 20:29:37 - INFO - Epoch 80 [Train] - Avg Total Loss: 0.006593, Avg Rec Loss: 0.006593, LR: 1.000732e-05
+2025-06-02 20:29:42 - INFO - Epoch 80 [Valid] - Avg Total Loss: 0.001819, Avg Rec Loss: 0.001819
+2025-06-02 20:29:42 - INFO - Epoch 80 summary => Train Loss: 0.006593, Val Loss: 0.001819
+2025-06-02 20:30:28 - INFO - Epoch 81 [Train] - Avg Total Loss: 0.006576, Avg Rec Loss: 0.006576, LR: 1.001099e-05
+2025-06-02 20:30:33 - INFO - Epoch 81 [Valid] - Avg Total Loss: 0.001726, Avg Rec Loss: 0.001726
+2025-06-02 20:30:33 - INFO - Validation loss improved from 0.001761 to 0.001726. Saving model...
+2025-06-02 20:30:33 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 20:30:33 - INFO - Epoch 81 summary => Train Loss: 0.006576, Val Loss: 0.001726
+2025-06-02 20:31:19 - INFO - Epoch 82 [Train] - Avg Total Loss: 0.006552, Avg Rec Loss: 0.006552, LR: 1.000732e-05
+2025-06-02 20:31:25 - INFO - Epoch 82 [Valid] - Avg Total Loss: 0.001871, Avg Rec Loss: 0.001871
+2025-06-02 20:31:25 - INFO - Epoch 82 summary => Train Loss: 0.006552, Val Loss: 0.001871
+2025-06-02 20:32:11 - INFO - Epoch 83 [Train] - Avg Total Loss: 0.006554, Avg Rec Loss: 0.006554, LR: 1.000366e-05
+2025-06-02 20:32:16 - INFO - Epoch 83 [Valid] - Avg Total Loss: 0.001735, Avg Rec Loss: 0.001735
+2025-06-02 20:32:16 - INFO - Epoch 83 summary => Train Loss: 0.006554, Val Loss: 0.001735
+2025-06-02 20:33:02 - INFO - Epoch 84 [Train] - Avg Total Loss: 0.006563, Avg Rec Loss: 0.006563, LR: 1.000000e-05
+2025-06-02 20:33:07 - INFO - Epoch 84 [Valid] - Avg Total Loss: 0.002667, Avg Rec Loss: 0.002667
+2025-06-02 20:33:07 - INFO - Epoch 84 summary => Train Loss: 0.006563, Val Loss: 0.002667
+2025-06-02 20:33:53 - INFO - Epoch 85 [Train] - Avg Total Loss: 0.006591, Avg Rec Loss: 0.006591, LR: 1.000183e-05
+2025-06-02 20:33:58 - INFO - Epoch 85 [Valid] - Avg Total Loss: 0.001956, Avg Rec Loss: 0.001956
+2025-06-02 20:33:58 - INFO - Epoch 85 summary => Train Loss: 0.006591, Val Loss: 0.001956
+2025-06-02 20:34:44 - INFO - Epoch 86 [Train] - Avg Total Loss: 0.006561, Avg Rec Loss: 0.006561, LR: 1.000366e-05
+2025-06-02 20:34:49 - INFO - Epoch 86 [Valid] - Avg Total Loss: 0.002195, Avg Rec Loss: 0.002195
+2025-06-02 20:34:49 - INFO - Epoch 86 summary => Train Loss: 0.006561, Val Loss: 0.002195
+2025-06-02 20:35:35 - INFO - Epoch 87 [Train] - Avg Total Loss: 0.006554, Avg Rec Loss: 0.006554, LR: 1.000549e-05
+2025-06-02 20:35:41 - INFO - Epoch 87 [Valid] - Avg Total Loss: 0.001644, Avg Rec Loss: 0.001644
+2025-06-02 20:35:41 - INFO - Validation loss improved from 0.001726 to 0.001644. Saving model...
+2025-06-02 20:35:41 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 20:35:41 - INFO - Epoch 87 summary => Train Loss: 0.006554, Val Loss: 0.001644
+2025-06-02 20:36:27 - INFO - Epoch 88 [Train] - Avg Total Loss: 0.006488, Avg Rec Loss: 0.006488, LR: 1.000366e-05
+2025-06-02 20:36:32 - INFO - Epoch 88 [Valid] - Avg Total Loss: 0.001766, Avg Rec Loss: 0.001766
+2025-06-02 20:36:32 - INFO - Epoch 88 summary => Train Loss: 0.006488, Val Loss: 0.001766
+2025-06-02 20:37:18 - INFO - Epoch 89 [Train] - Avg Total Loss: 0.006579, Avg Rec Loss: 0.006579, LR: 1.000183e-05
+2025-06-02 20:37:24 - INFO - Epoch 89 [Valid] - Avg Total Loss: 0.002301, Avg Rec Loss: 0.002301
+2025-06-02 20:37:24 - INFO - Epoch 89 summary => Train Loss: 0.006579, Val Loss: 0.002301
+2025-06-02 20:38:10 - INFO - Epoch 90 [Train] - Avg Total Loss: 0.006523, Avg Rec Loss: 0.006523, LR: 1.000000e-05
+2025-06-02 20:38:15 - INFO - Epoch 90 [Valid] - Avg Total Loss: 0.001804, Avg Rec Loss: 0.001804
+2025-06-02 20:38:15 - INFO - Epoch 90 summary => Train Loss: 0.006523, Val Loss: 0.001804
+2025-06-02 20:39:01 - INFO - Epoch 91 [Train] - Avg Total Loss: 0.006494, Avg Rec Loss: 0.006494, LR: 1.000092e-05
+2025-06-02 20:39:06 - INFO - Epoch 91 [Valid] - Avg Total Loss: 0.002098, Avg Rec Loss: 0.002098
+2025-06-02 20:39:06 - INFO - Epoch 91 summary => Train Loss: 0.006494, Val Loss: 0.002098
+2025-06-02 20:39:52 - INFO - Epoch 92 [Train] - Avg Total Loss: 0.006552, Avg Rec Loss: 0.006552, LR: 1.000183e-05
+2025-06-02 20:39:57 - INFO - Epoch 92 [Valid] - Avg Total Loss: 0.001907, Avg Rec Loss: 0.001907
+2025-06-02 20:39:57 - INFO - Epoch 92 summary => Train Loss: 0.006552, Val Loss: 0.001907
+2025-06-02 20:40:43 - INFO - Epoch 93 [Train] - Avg Total Loss: 0.006474, Avg Rec Loss: 0.006474, LR: 1.000275e-05
+2025-06-02 20:40:49 - INFO - Epoch 93 [Valid] - Avg Total Loss: 0.001776, Avg Rec Loss: 0.001776
+2025-06-02 20:40:49 - INFO - Epoch 93 summary => Train Loss: 0.006474, Val Loss: 0.001776
+2025-06-02 20:41:35 - INFO - Epoch 94 [Train] - Avg Total Loss: 0.006481, Avg Rec Loss: 0.006481, LR: 1.000183e-05
+2025-06-02 20:41:40 - INFO - Epoch 94 [Valid] - Avg Total Loss: 0.002092, Avg Rec Loss: 0.002092
+2025-06-02 20:41:40 - INFO - Epoch 94 summary => Train Loss: 0.006481, Val Loss: 0.002092
+2025-06-02 20:42:26 - INFO - Epoch 95 [Train] - Avg Total Loss: 0.006500, Avg Rec Loss: 0.006500, LR: 1.000092e-05
+2025-06-02 20:42:31 - INFO - Epoch 95 [Valid] - Avg Total Loss: 0.001999, Avg Rec Loss: 0.001999
+2025-06-02 20:42:31 - INFO - Epoch 95 summary => Train Loss: 0.006500, Val Loss: 0.001999
+2025-06-02 20:43:17 - INFO - Epoch 96 [Train] - Avg Total Loss: 0.006430, Avg Rec Loss: 0.006430, LR: 1.000000e-05
+2025-06-02 20:43:22 - INFO - Epoch 96 [Valid] - Avg Total Loss: 0.001735, Avg Rec Loss: 0.001735
+2025-06-02 20:43:22 - INFO - Epoch 96 summary => Train Loss: 0.006430, Val Loss: 0.001735
+2025-06-02 20:44:08 - INFO - Epoch 97 [Train] - Avg Total Loss: 0.006470, Avg Rec Loss: 0.006470, LR: 1.000046e-05
+2025-06-02 20:44:13 - INFO - Epoch 97 [Valid] - Avg Total Loss: 0.001754, Avg Rec Loss: 0.001754
+2025-06-02 20:44:13 - INFO - Epoch 97 summary => Train Loss: 0.006470, Val Loss: 0.001754
+2025-06-02 20:44:59 - INFO - Epoch 98 [Train] - Avg Total Loss: 0.006512, Avg Rec Loss: 0.006512, LR: 1.000092e-05
+2025-06-02 20:45:05 - INFO - Epoch 98 [Valid] - Avg Total Loss: 0.002496, Avg Rec Loss: 0.002496
+2025-06-02 20:45:05 - INFO - Epoch 98 summary => Train Loss: 0.006512, Val Loss: 0.002496
+2025-06-02 20:45:51 - INFO - Epoch 99 [Train] - Avg Total Loss: 0.006549, Avg Rec Loss: 0.006549, LR: 1.000137e-05
+2025-06-02 20:45:56 - INFO - Epoch 99 [Valid] - Avg Total Loss: 0.001736, Avg Rec Loss: 0.001736
+2025-06-02 20:45:56 - INFO - Epoch 99 summary => Train Loss: 0.006549, Val Loss: 0.001736
+2025-06-02 20:46:42 - INFO - Epoch 100 [Train] - Avg Total Loss: 0.006494, Avg Rec Loss: 0.006494, LR: 1.000092e-05
+2025-06-02 20:46:47 - INFO - Epoch 100 [Valid] - Avg Total Loss: 0.001771, Avg Rec Loss: 0.001771
+2025-06-02 20:46:47 - INFO - Epoch 100 summary => Train Loss: 0.006494, Val Loss: 0.001771
+2025-06-02 20:47:33 - INFO - Epoch 101 [Train] - Avg Total Loss: 0.006514, Avg Rec Loss: 0.006514, LR: 1.000046e-05
+2025-06-02 20:47:39 - INFO - Epoch 101 [Valid] - Avg Total Loss: 0.001701, Avg Rec Loss: 0.001701
+2025-06-02 20:47:39 - INFO - Epoch 101 summary => Train Loss: 0.006514, Val Loss: 0.001701
+2025-06-02 20:48:25 - INFO - Epoch 102 [Train] - Avg Total Loss: 0.006471, Avg Rec Loss: 0.006471, LR: 1.000000e-05
+2025-06-02 20:48:30 - INFO - Epoch 102 [Valid] - Avg Total Loss: 0.001749, Avg Rec Loss: 0.001749
+2025-06-02 20:48:30 - INFO - Epoch 102 summary => Train Loss: 0.006471, Val Loss: 0.001749
+2025-06-02 20:49:16 - INFO - Epoch 103 [Train] - Avg Total Loss: 0.006468, Avg Rec Loss: 0.006468, LR: 1.000023e-05
+2025-06-02 20:49:22 - INFO - Epoch 103 [Valid] - Avg Total Loss: 0.001823, Avg Rec Loss: 0.001823
+2025-06-02 20:49:22 - INFO - Epoch 103 summary => Train Loss: 0.006468, Val Loss: 0.001823
+2025-06-02 20:50:08 - INFO - Epoch 104 [Train] - Avg Total Loss: 0.006414, Avg Rec Loss: 0.006414, LR: 1.000046e-05
+2025-06-02 20:50:13 - INFO - Epoch 104 [Valid] - Avg Total Loss: 0.001672, Avg Rec Loss: 0.001672
+2025-06-02 20:50:13 - INFO - Epoch 104 summary => Train Loss: 0.006414, Val Loss: 0.001672
+2025-06-02 20:50:59 - INFO - Epoch 105 [Train] - Avg Total Loss: 0.006440, Avg Rec Loss: 0.006440, LR: 1.000069e-05
+2025-06-02 20:51:04 - INFO - Epoch 105 [Valid] - Avg Total Loss: 0.001739, Avg Rec Loss: 0.001739
+2025-06-02 20:51:04 - INFO - Epoch 105 summary => Train Loss: 0.006440, Val Loss: 0.001739
+2025-06-02 20:51:50 - INFO - Epoch 106 [Train] - Avg Total Loss: 0.006377, Avg Rec Loss: 0.006377, LR: 1.000046e-05
+2025-06-02 20:51:55 - INFO - Epoch 106 [Valid] - Avg Total Loss: 0.002139, Avg Rec Loss: 0.002139
+2025-06-02 20:51:55 - INFO - Epoch 106 summary => Train Loss: 0.006377, Val Loss: 0.002139
+2025-06-02 20:52:41 - INFO - Epoch 107 [Train] - Avg Total Loss: 0.006472, Avg Rec Loss: 0.006472, LR: 1.000023e-05
+2025-06-02 20:52:47 - INFO - Epoch 107 [Valid] - Avg Total Loss: 0.001710, Avg Rec Loss: 0.001710
+2025-06-02 20:52:47 - INFO - Epoch 107 summary => Train Loss: 0.006472, Val Loss: 0.001710
+2025-06-02 20:53:33 - INFO - Epoch 108 [Train] - Avg Total Loss: 0.006490, Avg Rec Loss: 0.006490, LR: 1.000000e-05
+2025-06-02 20:53:38 - INFO - Epoch 108 [Valid] - Avg Total Loss: 0.001853, Avg Rec Loss: 0.001853
+2025-06-02 20:53:38 - INFO - Epoch 108 summary => Train Loss: 0.006490, Val Loss: 0.001853
+2025-06-02 20:54:24 - INFO - Epoch 109 [Train] - Avg Total Loss: 0.006389, Avg Rec Loss: 0.006389, LR: 1.000011e-05
+2025-06-02 20:54:29 - INFO - Epoch 109 [Valid] - Avg Total Loss: 0.001615, Avg Rec Loss: 0.001615
+2025-06-02 20:54:29 - INFO - Validation loss improved from 0.001644 to 0.001615. Saving model...
+2025-06-02 20:54:29 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 20:54:29 - INFO - Epoch 109 summary => Train Loss: 0.006389, Val Loss: 0.001615
+2025-06-02 20:55:15 - INFO - Epoch 110 [Train] - Avg Total Loss: 0.006410, Avg Rec Loss: 0.006410, LR: 1.000023e-05
+2025-06-02 20:55:20 - INFO - Epoch 110 [Valid] - Avg Total Loss: 0.001806, Avg Rec Loss: 0.001806
+2025-06-02 20:55:20 - INFO - Epoch 110 summary => Train Loss: 0.006410, Val Loss: 0.001806
+2025-06-02 20:56:06 - INFO - Epoch 111 [Train] - Avg Total Loss: 0.006454, Avg Rec Loss: 0.006454, LR: 1.000034e-05
+2025-06-02 20:56:12 - INFO - Epoch 111 [Valid] - Avg Total Loss: 0.001932, Avg Rec Loss: 0.001932
+2025-06-02 20:56:12 - INFO - Epoch 111 summary => Train Loss: 0.006454, Val Loss: 0.001932
+2025-06-02 20:56:58 - INFO - Epoch 112 [Train] - Avg Total Loss: 0.006368, Avg Rec Loss: 0.006368, LR: 1.000023e-05
+2025-06-02 20:57:03 - INFO - Epoch 112 [Valid] - Avg Total Loss: 0.001813, Avg Rec Loss: 0.001813
+2025-06-02 20:57:03 - INFO - Epoch 112 summary => Train Loss: 0.006368, Val Loss: 0.001813
+2025-06-02 20:57:49 - INFO - Epoch 113 [Train] - Avg Total Loss: 0.006398, Avg Rec Loss: 0.006398, LR: 1.000011e-05
+2025-06-02 20:57:54 - INFO - Epoch 113 [Valid] - Avg Total Loss: 0.001761, Avg Rec Loss: 0.001761
+2025-06-02 20:57:54 - INFO - Epoch 113 summary => Train Loss: 0.006398, Val Loss: 0.001761
+2025-06-02 20:58:40 - INFO - Epoch 114 [Train] - Avg Total Loss: 0.006443, Avg Rec Loss: 0.006443, LR: 1.000000e-05
+2025-06-02 20:58:45 - INFO - Epoch 114 [Valid] - Avg Total Loss: 0.001688, Avg Rec Loss: 0.001688
+2025-06-02 20:58:45 - INFO - Epoch 114 summary => Train Loss: 0.006443, Val Loss: 0.001688
+2025-06-02 20:59:32 - INFO - Epoch 115 [Train] - Avg Total Loss: 0.006438, Avg Rec Loss: 0.006438, LR: 1.000006e-05
+2025-06-02 20:59:37 - INFO - Epoch 115 [Valid] - Avg Total Loss: 0.001824, Avg Rec Loss: 0.001824
+2025-06-02 20:59:37 - INFO - Epoch 115 summary => Train Loss: 0.006438, Val Loss: 0.001824
+2025-06-02 21:00:23 - INFO - Epoch 116 [Train] - Avg Total Loss: 0.006354, Avg Rec Loss: 0.006354, LR: 1.000011e-05
+2025-06-02 21:00:28 - INFO - Epoch 116 [Valid] - Avg Total Loss: 0.001803, Avg Rec Loss: 0.001803
+2025-06-02 21:00:28 - INFO - Epoch 116 summary => Train Loss: 0.006354, Val Loss: 0.001803
+2025-06-02 21:01:14 - INFO - Epoch 117 [Train] - Avg Total Loss: 0.006401, Avg Rec Loss: 0.006401, LR: 1.000017e-05
+2025-06-02 21:01:19 - INFO - Epoch 117 [Valid] - Avg Total Loss: 0.001675, Avg Rec Loss: 0.001675
+2025-06-02 21:01:19 - INFO - Epoch 117 summary => Train Loss: 0.006401, Val Loss: 0.001675
+2025-06-02 21:02:05 - INFO - Epoch 118 [Train] - Avg Total Loss: 0.006383, Avg Rec Loss: 0.006383, LR: 1.000011e-05
+2025-06-02 21:02:11 - INFO - Epoch 118 [Valid] - Avg Total Loss: 0.001729, Avg Rec Loss: 0.001729
+2025-06-02 21:02:11 - INFO - Epoch 118 summary => Train Loss: 0.006383, Val Loss: 0.001729
+2025-06-02 21:02:57 - INFO - Epoch 119 [Train] - Avg Total Loss: 0.006347, Avg Rec Loss: 0.006347, LR: 1.000006e-05
+2025-06-02 21:03:02 - INFO - Epoch 119 [Valid] - Avg Total Loss: 0.001700, Avg Rec Loss: 0.001700
+2025-06-02 21:03:02 - INFO - Epoch 119 summary => Train Loss: 0.006347, Val Loss: 0.001700
+2025-06-02 21:03:48 - INFO - Epoch 120 [Train] - Avg Total Loss: 0.006365, Avg Rec Loss: 0.006365, LR: 1.000000e-05
+2025-06-02 21:03:53 - INFO - Epoch 120 [Valid] - Avg Total Loss: 0.001879, Avg Rec Loss: 0.001879
+2025-06-02 21:03:53 - INFO - Epoch 120 summary => Train Loss: 0.006365, Val Loss: 0.001879
+2025-06-02 21:04:39 - INFO - Epoch 121 [Train] - Avg Total Loss: 0.006305, Avg Rec Loss: 0.006305, LR: 1.000003e-05
+2025-06-02 21:04:45 - INFO - Epoch 121 [Valid] - Avg Total Loss: 0.001655, Avg Rec Loss: 0.001655
+2025-06-02 21:04:45 - INFO - Epoch 121 summary => Train Loss: 0.006305, Val Loss: 0.001655
+2025-06-02 21:05:31 - INFO - Epoch 122 [Train] - Avg Total Loss: 0.006297, Avg Rec Loss: 0.006297, LR: 1.000006e-05
+2025-06-02 21:05:36 - INFO - Epoch 122 [Valid] - Avg Total Loss: 0.001547, Avg Rec Loss: 0.001547
+2025-06-02 21:05:36 - INFO - Validation loss improved from 0.001615 to 0.001547. Saving model...
+2025-06-02 21:05:36 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 21:05:36 - INFO - Epoch 122 summary => Train Loss: 0.006297, Val Loss: 0.001547
+2025-06-02 21:06:22 - INFO - Epoch 123 [Train] - Avg Total Loss: 0.006366, Avg Rec Loss: 0.006366, LR: 1.000009e-05
+2025-06-02 21:06:27 - INFO - Epoch 123 [Valid] - Avg Total Loss: 0.001618, Avg Rec Loss: 0.001618
+2025-06-02 21:06:27 - INFO - Epoch 123 summary => Train Loss: 0.006366, Val Loss: 0.001618
+2025-06-02 21:07:13 - INFO - Epoch 124 [Train] - Avg Total Loss: 0.006342, Avg Rec Loss: 0.006342, LR: 1.000006e-05
+2025-06-02 21:07:19 - INFO - Epoch 124 [Valid] - Avg Total Loss: 0.001714, Avg Rec Loss: 0.001714
+2025-06-02 21:07:19 - INFO - Epoch 124 summary => Train Loss: 0.006342, Val Loss: 0.001714
+2025-06-02 21:08:04 - INFO - Epoch 125 [Train] - Avg Total Loss: 0.006375, Avg Rec Loss: 0.006375, LR: 1.000003e-05
+2025-06-02 21:08:10 - INFO - Epoch 125 [Valid] - Avg Total Loss: 0.001522, Avg Rec Loss: 0.001522
+2025-06-02 21:08:10 - INFO - Validation loss improved from 0.001547 to 0.001522. Saving model...
+2025-06-02 21:08:10 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 21:08:10 - INFO - Epoch 125 summary => Train Loss: 0.006375, Val Loss: 0.001522
+2025-06-02 21:08:56 - INFO - Epoch 126 [Train] - Avg Total Loss: 0.006382, Avg Rec Loss: 0.006382, LR: 1.000000e-05
+2025-06-02 21:09:01 - INFO - Epoch 126 [Valid] - Avg Total Loss: 0.001681, Avg Rec Loss: 0.001681
+2025-06-02 21:09:01 - INFO - Epoch 126 summary => Train Loss: 0.006382, Val Loss: 0.001681
+2025-06-02 21:09:47 - INFO - Epoch 127 [Train] - Avg Total Loss: 0.006370, Avg Rec Loss: 0.006370, LR: 1.000001e-05
+2025-06-02 21:09:53 - INFO - Epoch 127 [Valid] - Avg Total Loss: 0.001723, Avg Rec Loss: 0.001723
+2025-06-02 21:09:53 - INFO - Epoch 127 summary => Train Loss: 0.006370, Val Loss: 0.001723
+2025-06-02 21:10:38 - INFO - Epoch 128 [Train] - Avg Total Loss: 0.006323, Avg Rec Loss: 0.006323, LR: 1.000003e-05
+2025-06-02 21:10:44 - INFO - Epoch 128 [Valid] - Avg Total Loss: 0.001671, Avg Rec Loss: 0.001671
+2025-06-02 21:10:44 - INFO - Epoch 128 summary => Train Loss: 0.006323, Val Loss: 0.001671
+2025-06-02 21:11:29 - INFO - Epoch 129 [Train] - Avg Total Loss: 0.006314, Avg Rec Loss: 0.006314, LR: 1.000004e-05
+2025-06-02 21:11:35 - INFO - Epoch 129 [Valid] - Avg Total Loss: 0.001720, Avg Rec Loss: 0.001720
+2025-06-02 21:11:35 - INFO - Epoch 129 summary => Train Loss: 0.006314, Val Loss: 0.001720
+2025-06-02 21:12:21 - INFO - Epoch 130 [Train] - Avg Total Loss: 0.006362, Avg Rec Loss: 0.006362, LR: 1.000003e-05
+2025-06-02 21:12:26 - INFO - Epoch 130 [Valid] - Avg Total Loss: 0.001623, Avg Rec Loss: 0.001623
+2025-06-02 21:12:26 - INFO - Epoch 130 summary => Train Loss: 0.006362, Val Loss: 0.001623
+2025-06-02 21:13:12 - INFO - Epoch 131 [Train] - Avg Total Loss: 0.006308, Avg Rec Loss: 0.006308, LR: 1.000001e-05
+2025-06-02 21:13:18 - INFO - Epoch 131 [Valid] - Avg Total Loss: 0.001562, Avg Rec Loss: 0.001562
+2025-06-02 21:13:18 - INFO - Epoch 131 summary => Train Loss: 0.006308, Val Loss: 0.001562
+2025-06-02 21:14:04 - INFO - Epoch 132 [Train] - Avg Total Loss: 0.006280, Avg Rec Loss: 0.006280, LR: 1.000000e-05
+2025-06-02 21:14:09 - INFO - Epoch 132 [Valid] - Avg Total Loss: 0.001871, Avg Rec Loss: 0.001871
+2025-06-02 21:14:09 - INFO - Epoch 132 summary => Train Loss: 0.006280, Val Loss: 0.001871
+2025-06-02 21:14:55 - INFO - Epoch 133 [Train] - Avg Total Loss: 0.006336, Avg Rec Loss: 0.006336, LR: 1.000001e-05
+2025-06-02 21:15:00 - INFO - Epoch 133 [Valid] - Avg Total Loss: 0.001591, Avg Rec Loss: 0.001591
+2025-06-02 21:15:00 - INFO - Epoch 133 summary => Train Loss: 0.006336, Val Loss: 0.001591
+2025-06-02 21:15:46 - INFO - Epoch 134 [Train] - Avg Total Loss: 0.006373, Avg Rec Loss: 0.006373, LR: 1.000001e-05
+2025-06-02 21:15:51 - INFO - Epoch 134 [Valid] - Avg Total Loss: 0.001685, Avg Rec Loss: 0.001685
+2025-06-02 21:15:51 - INFO - Epoch 134 summary => Train Loss: 0.006373, Val Loss: 0.001685
+2025-06-02 21:16:37 - INFO - Epoch 135 [Train] - Avg Total Loss: 0.006359, Avg Rec Loss: 0.006359, LR: 1.000002e-05
+2025-06-02 21:16:43 - INFO - Epoch 135 [Valid] - Avg Total Loss: 0.001699, Avg Rec Loss: 0.001699
+2025-06-02 21:16:43 - INFO - Epoch 135 summary => Train Loss: 0.006359, Val Loss: 0.001699
+2025-06-02 21:17:29 - INFO - Epoch 136 [Train] - Avg Total Loss: 0.006336, Avg Rec Loss: 0.006336, LR: 1.000001e-05
+2025-06-02 21:17:34 - INFO - Epoch 136 [Valid] - Avg Total Loss: 0.001803, Avg Rec Loss: 0.001803
+2025-06-02 21:17:34 - INFO - Epoch 136 summary => Train Loss: 0.006336, Val Loss: 0.001803
+2025-06-02 21:18:20 - INFO - Epoch 137 [Train] - Avg Total Loss: 0.006294, Avg Rec Loss: 0.006294, LR: 1.000001e-05
+2025-06-02 21:18:26 - INFO - Epoch 137 [Valid] - Avg Total Loss: 0.001647, Avg Rec Loss: 0.001647
+2025-06-02 21:18:26 - INFO - Epoch 137 summary => Train Loss: 0.006294, Val Loss: 0.001647
+2025-06-02 21:19:11 - INFO - Epoch 138 [Train] - Avg Total Loss: 0.006335, Avg Rec Loss: 0.006335, LR: 1.000000e-05
+2025-06-02 21:19:17 - INFO - Epoch 138 [Valid] - Avg Total Loss: 0.001498, Avg Rec Loss: 0.001498
+2025-06-02 21:19:17 - INFO - Validation loss improved from 0.001522 to 0.001498. Saving model...
+2025-06-02 21:19:17 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 21:19:17 - INFO - Epoch 138 summary => Train Loss: 0.006335, Val Loss: 0.001498
+2025-06-02 21:20:03 - INFO - Epoch 139 [Train] - Avg Total Loss: 0.006233, Avg Rec Loss: 0.006233, LR: 1.000000e-05
+2025-06-02 21:20:08 - INFO - Epoch 139 [Valid] - Avg Total Loss: 0.001515, Avg Rec Loss: 0.001515
+2025-06-02 21:20:08 - INFO - Epoch 139 summary => Train Loss: 0.006233, Val Loss: 0.001515
+2025-06-02 21:20:54 - INFO - Epoch 140 [Train] - Avg Total Loss: 0.006237, Avg Rec Loss: 0.006237, LR: 1.000001e-05
+2025-06-02 21:20:59 - INFO - Epoch 140 [Valid] - Avg Total Loss: 0.001605, Avg Rec Loss: 0.001605
+2025-06-02 21:20:59 - INFO - Epoch 140 summary => Train Loss: 0.006237, Val Loss: 0.001605
+2025-06-02 21:21:45 - INFO - Epoch 141 [Train] - Avg Total Loss: 0.006268, Avg Rec Loss: 0.006268, LR: 1.000001e-05
+2025-06-02 21:21:51 - INFO - Epoch 141 [Valid] - Avg Total Loss: 0.001740, Avg Rec Loss: 0.001740
+2025-06-02 21:21:51 - INFO - Epoch 141 summary => Train Loss: 0.006268, Val Loss: 0.001740
+2025-06-02 21:22:36 - INFO - Epoch 142 [Train] - Avg Total Loss: 0.006332, Avg Rec Loss: 0.006332, LR: 1.000001e-05
+2025-06-02 21:22:42 - INFO - Epoch 142 [Valid] - Avg Total Loss: 0.001650, Avg Rec Loss: 0.001650
+2025-06-02 21:22:42 - INFO - Epoch 142 summary => Train Loss: 0.006332, Val Loss: 0.001650
+2025-06-02 21:23:28 - INFO - Epoch 143 [Train] - Avg Total Loss: 0.006332, Avg Rec Loss: 0.006332, LR: 1.000000e-05
+2025-06-02 21:23:33 - INFO - Epoch 143 [Valid] - Avg Total Loss: 0.001622, Avg Rec Loss: 0.001622
+2025-06-02 21:23:33 - INFO - Epoch 143 summary => Train Loss: 0.006332, Val Loss: 0.001622
+2025-06-02 21:24:19 - INFO - Epoch 144 [Train] - Avg Total Loss: 0.006286, Avg Rec Loss: 0.006286, LR: 1.000000e-05
+2025-06-02 21:24:24 - INFO - Epoch 144 [Valid] - Avg Total Loss: 0.001679, Avg Rec Loss: 0.001679
+2025-06-02 21:24:24 - INFO - Epoch 144 summary => Train Loss: 0.006286, Val Loss: 0.001679
+2025-06-02 21:25:10 - INFO - Epoch 145 [Train] - Avg Total Loss: 0.006326, Avg Rec Loss: 0.006326, LR: 1.000000e-05
+2025-06-02 21:25:15 - INFO - Epoch 145 [Valid] - Avg Total Loss: 0.001630, Avg Rec Loss: 0.001630
+2025-06-02 21:25:15 - INFO - Epoch 145 summary => Train Loss: 0.006326, Val Loss: 0.001630
+2025-06-02 21:26:01 - INFO - Epoch 146 [Train] - Avg Total Loss: 0.006180, Avg Rec Loss: 0.006180, LR: 1.000000e-05
+2025-06-02 21:26:06 - INFO - Epoch 146 [Valid] - Avg Total Loss: 0.001576, Avg Rec Loss: 0.001576
+2025-06-02 21:26:06 - INFO - Epoch 146 summary => Train Loss: 0.006180, Val Loss: 0.001576
+2025-06-02 21:26:52 - INFO - Epoch 147 [Train] - Avg Total Loss: 0.006241, Avg Rec Loss: 0.006241, LR: 1.000001e-05
+2025-06-02 21:26:58 - INFO - Epoch 147 [Valid] - Avg Total Loss: 0.001735, Avg Rec Loss: 0.001735
+2025-06-02 21:26:58 - INFO - Epoch 147 summary => Train Loss: 0.006241, Val Loss: 0.001735
+2025-06-02 21:27:44 - INFO - Epoch 148 [Train] - Avg Total Loss: 0.006227, Avg Rec Loss: 0.006227, LR: 1.000000e-05
+2025-06-02 21:27:49 - INFO - Epoch 148 [Valid] - Avg Total Loss: 0.001801, Avg Rec Loss: 0.001801
+2025-06-02 21:27:49 - INFO - Epoch 148 summary => Train Loss: 0.006227, Val Loss: 0.001801
+2025-06-02 21:28:35 - INFO - Epoch 149 [Train] - Avg Total Loss: 0.006299, Avg Rec Loss: 0.006299, LR: 1.000000e-05
+2025-06-02 21:28:40 - INFO - Epoch 149 [Valid] - Avg Total Loss: 0.001691, Avg Rec Loss: 0.001691
+2025-06-02 21:28:40 - INFO - Epoch 149 summary => Train Loss: 0.006299, Val Loss: 0.001691
+2025-06-02 21:29:26 - INFO - Epoch 150 [Train] - Avg Total Loss: 0.006219, Avg Rec Loss: 0.006219, LR: 1.000000e-05
+2025-06-02 21:29:31 - INFO - Epoch 150 [Valid] - Avg Total Loss: 0.001486, Avg Rec Loss: 0.001486
+2025-06-02 21:29:31 - INFO - Validation loss improved from 0.001498 to 0.001486. Saving model...
+2025-06-02 21:29:31 - INFO - Model saved to: train_log\real_data_model_net_new.pth
+2025-06-02 21:29:31 - INFO - Epoch 150 summary => Train Loss: 0.006219, Val Loss: 0.001486
+2025-06-02 21:29:32 - INFO - Saved loss curve figure to: train_log\loss_curve.png
